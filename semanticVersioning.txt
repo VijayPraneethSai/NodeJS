@@ -1,0 +1,13 @@
+npm install express
+- installs express
+- this makes an entry in the dependencies object in package.json file
+  as "express": ^4.18.1
+
+  4 - The first digit is major version
+  18 - the second digit is minor version
+  1 - the third digit is patch version
+
+  - if we have a ^ sybmol is means the minor or patch version can be changed
+    so if we update the minor or patch version will only be updated never it will update the major version
+  - sometimes we see ~ symbol (~ 4.18.1) this means only patch version is available
+  

@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-tutorail",
+  "version": "1.0.0",
+  "description": "This is nodejs tutorial for beginners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon arguments.js"
+  },
+  "author": "Vijay Praneeth Sai",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cowsay": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
+    "minimst": "^0.0.1-security",
+    "progress": "^2.0.3",
+    "prompt-sync": "^4.2.0"
+  }
+}

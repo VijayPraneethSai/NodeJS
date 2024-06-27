@@ -1,0 +1,48 @@
+NPM is the standard package manager for NodeJS
+NPM is a way to download and manage dependencies for both frontend and backend application using JavaScript.
+
+basic npm commands
+
+we need to use const _ require("<package-name>") in any file before using it.
+
+npm init
+- to create an app
+- asks details like name version description git repo etc
+- created the package.json file
+
+npm install 
+- to install dependencied
+- creates node modules folder
+npm install <package-name> [-g, --save-dev, --no-save, --save-optional, --no-optional]
+- -g installs the package globally
+- --save-dev installs in dev dependencies
+- --save-optional saves the package in optional dependencies
+- default this command installs locally in node modules
+npm start
+- in the package.json file we have the scripts object in which there is a start property 
+   in that we can type nodemon <filename>.js
+- now if we type npm start it will start executing the file which we can see in the terminal
+
+npm install <package-name>@<version>
+- for downloading older version of the package.
+
+npm update
+
+npm update <package-name>
+
+npm run<task-name>
+
+npm list
+- to know all the packages installed in this project locally
+- use -g to know globally installed packages
+
+npm view <package-name> version
+- to know the package version
+
+npm view react versions
+- gives all the avaiables version of react
+
+npm uninstall <package-name>
+
+npm help
+
